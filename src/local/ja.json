@@ -1,4 +1,89 @@
 {
-
-
+  "title": "Syummy Corporate",
+  "description": "DESCRIPTION",
+  "keyword": "syummy",
+  "author": "Syummy Inc.",
+  "nav": {
+    "home": "nav.Home",
+    "overview": "nav.Overview",
+    "service": "nav.Service",
+    "portfolio": "nav.Portfolio",
+    "about_us": "nav.About Us",
+    "contact_us": "nav.Contact Us"
+  },
+  "home": {
+    "title": "home.title",
+    "catch1": "home.catch1",
+    "catch2": "home.catch2",
+    "catch3": "home.catch3"
+  },
+  "meet_us": {
+    "title": "meat-us.title",
+    "caption": "meat-us.content MMM"
+  },
+  "service": {
+    "title": "service.title",
+    "caption": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "item1_title": "titleA",
+    "item1_caption": "captionA",
+    "item2_title": "titleB",
+    "item2_caption": "captionB",
+    "item3_title": "titleC",
+    "item3_caption": "captionC"
+  },
+  "works": {
+    "title": "works-title",
+    "caption": "works-caption",
+    "item1_title": "titleA",
+    "item1_caption": "captionA",
+    "item2_title": "titleB",
+    "item2_caption": "captionB",
+    "item3_title": "titleC",
+    "item3_caption": "captionC",
+    "item4_title": "titleD",
+    "item4_caption": "captionD",
+  },
+  "partner": {
+    "title": "partner",
+    "caption": "caption"
+  },
+  "about_us": {
+    "title": "about_us.title",
+    "caption": "caption"
+  },
+  "testimonial": {
+    "title": "testimonial.title",
+    "content": [
+      {
+        "caption": "Et iusto odio dignissimos ducimus qui blanditiis<br>praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint<br>occaecati cupiditate non provident.",
+        "author": "author1"
+      },
+      {
+        "caption": "caption2",
+        "author": "author2"
+      },
+      {
+        "caption": "caption3",
+        "author": "author3"
+      },
+      {
+        "caption": "caption4",
+        "author": "author4"
+      }
+    ]
+  },
+  "contact": {
+    "title": "contact us",
+    "address_title": "address",
+    "address": "AAA<br>BBB<br>CCC<br>Phone",
+    "your_name": "your_name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
+  },
+  "footer": {
+    "copyright": "copy right",
+    "back_top": "back_top"
+  }
 }

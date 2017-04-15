@@ -5,10 +5,10 @@ html(lang='en')
     //if IE
       meta(http-equiv='x-ua-compatible', content='IE=9')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Arcadia Free Bootstrap Template - Home Page
-    meta(name='description', content='Your Description Here')
-    meta(name='keywords', content='free boostrap, bootstrap template, freebies, free theme, free website, free portfolio theme, portfolio, personal, cv')
-    meta(name='author', content='Jenn, ThemeForces.com')
+    title #{title}
+    meta(name='description', content=`${description}`)
+    meta(name='keywords', content=`${keywords}`)
+    meta(name='author', content=`${author}`)
     link(rel='shortcut icon', href='../img/favicon.ico', type='image/x-icon')
     link(rel='apple-touch-icon', href='../img/apple-touch-icon.png')
     link(rel='apple-touch-icon', sizes='72x72', href='../img/apple-touch-icon-72x72.png')
@@ -33,23 +33,23 @@ html(lang='en')
       .add-margin
       ul.nav.navmenu-nav
         li
-          a.page-scroll(href='#home') Home
+          a.page-scroll(href='#home') #{nav.home}
         li
-          a.page-scroll(href='#meet-us') Overview
+          a.page-scroll(href='#meet-us') #{nav.overview}
         li
-          a.page-scroll(href='#services') Services
+          a.page-scroll(href='#services') #{nav.service}
         li
-          a.page-scroll(href='#works') Portfolio
+          a.page-scroll(href='#works') #{nav.portfolio}
         li
-          a.page-scroll(href='#about-us') About Us
+          a.page-scroll(href='#about-us') #{nav.about_us}
         li
-          a.page-scroll(href='#contact') Contact Us
+          a.page-scroll(href='#contact') #{nav.contact_us}
     #home
       .container.text-center
         nav#menu(data-toggle='offcanvas', data-target='.navmenu')
           span.fa.fa-bars
         .content
-          h4 We&apos;ve got the special power
+          h4 #{home.title}
           hr
           .header-text.btn
             h1
@@ -61,10 +61,9 @@ html(lang='en')
         .row.text-center
           .col-md-8.col-md-offset-2
             .section-title
-              h2 Meet Us
+              h2 #{meet_us.title}
               hr
-            p
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            p #{meet_us.caption}
             a.down-btn.page-scroll(href='#services')
               span.fa.fa-angle-down
     #overview-video
@@ -77,30 +76,27 @@ html(lang='en')
         .row
           .col-md-8.col-md-offset-2
             .section-title
-              h2 Services
+              h2 #{service.title}
               hr
             p
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+              | #{service.caption}
         .space
         .row
           .col-md-4.col-sm-4
             .service
               span.fa.fa-book.fa-3x
-              h4 Branding
-              p
-                | Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.
+              h4 #{service.item1_title}
+              p #{service.item1_caption}
           .col-md-4.col-sm-4
             .service
               span.fa.fa-bicycle.fa-3x
-              h4 Web Devepment
-              p
-                | Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Accusamus et. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              h4 #{service.item2_title}
+              p #{service.item2_caption}
           .col-md-4.col-sm-4
             .service
               span.fa.fa-plug.fa-3x
-              h4 App Design
-              p
-                | Nulla vitae elit libero, a pharetra augue. At vero eos et accusamus et iusto odio dignissimos ducimus. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+              h4  #{service.item3_title}
+              p #{service.item3_caption}
         a.down-btn.page-scroll(href='#works')
           span.fa.fa-angle-down
     #cta
@@ -110,10 +106,9 @@ html(lang='en')
         .row.text-center
           .col-md-8.col-md-offset-2
             .section-title
-              h2 Our Latest Projects
+              h2 #{works.title}
               hr
-            p
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            p #{works.caption}
         .space
       .container-fluid
         .row
@@ -122,8 +117,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 Logo Design
-                    p.lead Client Seal
+                    h5 #{works.item1_title}
+                    p.lead #{works.item1_caption}
                     .hline
                   |  
                   img.img-responsive(src='../img/portfolio/01.jpg', alt='...')
@@ -132,8 +127,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 Stationery
-                    p.lead Design Project
+                    h5 #{works.item2_title}
+                    p.lead #{works.item2_caption}
                     .hline
                   |  
                   img.img-responsive(src='../img/portfolio/02.jpg', alt='...')
@@ -142,8 +137,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 Branding
-                    p.lead Metalbrand
+                    h5 #{works.item3_title}
+                    p.lead #{works.item3_caption}
                     .hline
                 |  
                 img.img-responsive(src='../img/portfolio/03.jpg', alt='...')
@@ -152,8 +147,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 Business Card
-                    p.lead Clothing Line
+                    h5 #{works.item4_title}
+                    p.lead #{works.item4_caption}
                     .hline
                 |  
                 img.img-responsive(src='../img/portfolio/04.jpg', alt='...')
@@ -164,62 +159,77 @@ html(lang='en')
       .overlay
         .container.text-center
           .section-title
-            h2 Our Partners
+            h2 #{partner.title}
             hr
-          ul.clients
-            li
-              a(href='#')
-                img.img-responsive(src='../img/clients/01.png', alt='...')
-            li
-              a(href='#')
-                img.img-responsive(src='../img/clients/02.png', alt='...')
-            li
-              a(href='#')
-                img.img-responsive(src='../img/clients/03.png', alt='...')
-            li
-              a(href='#')
-                img.img-responsive(src='../img/clients/04.png', alt='...')
+            h2 #{partner.caption}
+          //- ul.clients
+          //-   li
+          //-     a(href='#')
+          //-       img.img-responsive(src='../img/clients/01.png', alt='...')
+          //-   li
+          //-     a(href='#')
+          //-       img.img-responsive(src='../img/clients/02.png', alt='...')
+          //-   li
+          //-     a(href='#')
+          //-       img.img-responsive(src='../img/clients/03.png', alt='...')
+          //-   li
+          //-     a(href='#')
+          //-       img.img-responsive(src='../img/clients/04.png', alt='...')
     #about-us
       .container
         .row.text-center
           .col-md-8.col-md-offset-2
             .section-title
-              h2 About Us
+              h2 #{about_us.title}
               hr
-            p
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            p #{about_us.caption}
         .space
         .row
-          .col-md-10.col-sm-10
-            .row
-              .col-md-4.col-sm-4
-                .team
-                  img.img-responsive.img-circle(src='../img/team/02.jpg', alt='...')
-                  br
-                  h4 Lian Gwapa
-                  p.small CEO/Founder
-                  hr
-              .col-md-4.col-sm-4
-                .team
-                  img.img-responsive.img-circle(src='../img/team/04.jpg', alt='...')
-                  br
-                  h4 Jenn Pereira
-                  p.small Web Coder
-                  hr
-              .col-md-4.col-sm-4
-                .team
-                  img.img-responsive.img-circle(src='../img/team/03.jpg', alt='...')
-                  br
-                  h4 Alan Podemski
-                  p.small Web Designer
-                  hr
-          .col-md-2.col-sm-2
-            .team.hire
-              h4 We Are Hiring!
+          .col-md-3.col-sm-3
+            .team
+              img.img-responsive.img-circle(src='../img/team/02.jpg', alt='...')
+              br
+              h4 Lian Gwapa
+              p.small CEO/Founder
               hr
-              .space
-              a(href='#')
-                span.fa.fa-paper-plane-o.fa-2x
+          .col-md-3.col-sm-3
+            .team
+              img.img-responsive.img-circle(src='../img/team/04.jpg', alt='...')
+              br
+              h4 Jenn Pereira
+              p.small Web Coder
+              hr
+          .col-md-3.col-sm-3
+            .team
+              img.img-responsive.img-circle(src='../img/team/03.jpg', alt='...')
+              br
+              h4 Alan Podemski
+              p.small Web Designer
+              hr
+          .col-md-3.col-sm-3
+            .team
+              img.img-responsive.img-circle(src='../img/team/02.jpg', alt='...')
+              br
+              h4 Lian Gwapa
+              p.small CEO/Founder
+              hr
+        .row
+          
+          .col-md-3.col-sm-3
+            .team
+              img.img-responsive.img-circle(src='../img/team/04.jpg', alt='...')
+              br
+              h4 Jenn Pereira
+              p.small Web Coder
+              hr
+          .col-md-3.col-sm-3
+            .team
+              img.img-responsive.img-circle(src='../img/team/03.jpg', alt='...')
+              br
+              h4 Alan Podemski
+              p.small Web Designer
+              hr
+          
         .text-center
           a.page-scroll.down-btn(href='#contact')
             span.fa.fa-angle-down
@@ -230,51 +240,27 @@ html(lang='en')
             h2 What my Clients Say...
             hr
           #testimonial.owl-carousel.owl-theme
-            .item
-              h3
-                | Et iusto odio dignissimos ducimus qui blanditiis
+            for content in testimonial.content
+              .item
+                h3 !{content.caption}
                 br
-                | praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                br
-                | occaecati cupiditate non provident.
-              br
-              h6 LJ, Abc Company
-            .item
-              h3
-                | Fusce dapibus, tellus ac cursus commodo, tortor
-                br
-                |  mauris condimentum. Duis mollis, est non commodo luctus, nisi erat
-              br
-              h6 Kai, Web Geekster
-            .item
-              h3
-                | Cras justo odio, dapibus ac facilisis in, egestas
-                br
-                | eget quam. Donec id elit non mi porta gravida at eget metus.
-              br
-              h6 Jenn, Coders&apos; Playground
+                h6 #{content.author}
     #contact
       .container
         .section-title.text-center
-          h2 Contact Us
+          h2 #{contact.title}
           hr
         .space
         .row
           .col-md-3
             address
-              strong Address
-              br
-              br
-              |  ThemeForces.Com
-              br
-              |  Igbalangao, Bugasong, Anitque
-              br
-              |  5704, Philippines
-              br
-              |  Phone: (123) 456-7890
+              strong #{contact.address_title}
+              p 
+                br
+                | !{contact.address}
               ul.social
                 li
-                  a(href='#')
+                  a(href=`${facebook_url}`)
                     span.fa.fa-facebook
                 li
                   a(href='#')
@@ -289,27 +275,23 @@ html(lang='en')
             form(autocomplete='off')
               .row
                 .col-md-6
-                  input.form-control(type='text', placeholder='Your Name')
+                  input.form-control(type='text', placeholder=`${contact.your_name}`)
                   |  
                   input.form-control(type='text', placeholder='Phone No.')
                 .col-md-6
-                  input.form-control(type='text', placeholder='Email')
+                  input.form-control(type='text', placeholder=`${contact.email}`)
                   |  
-                  input.form-control(type='text', placeholder='Subject')
-              textarea.form-control(rows='4', placeholder='Message')
+                  input.form-control(type='text', placeholder=`${contact.subject}`)
+              textarea.form-control(rows='4', placeholder=`${contact.message}`)
               .text-right
-                a.btn.send-btn(href='#') Send
+                a.btn.send-btn(href='#') #{contact.send}
     nav#footer
       .container
         .pull-left
-          p
-            | 2014 &copy; Arcadia. All Rights Reserved. Coded by 
-            a(href='https://dribbble.com/jennpereira') Jenn
-            |  &amp; Designed by 
-            a(href='https://dribbble.com/alanpodemski') Alan
+          p #{footer.copyright}
         .pull-right
           a.page-scroll(href='#home')
-            | Back to Top
+            | #{footer.back_top}
             span.fa.fa-angle-up
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     script(type='text/javascript', src='../js/jquery.1.11.1.js')
@@ -321,7 +303,7 @@ html(lang='en')
     script.
       $(function(){
       $("#head-title").typed({
-      strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with diffence^1000"],
+      strings: [home.catch1, #{home.catch2}, `${home.catch3}`],
       typeSpeed: 100,
       loop: true,
       startDelay: 100

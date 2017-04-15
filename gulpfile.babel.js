@@ -17,9 +17,9 @@ const pugTask = (lang) => {
   let destDir = DEST+'/'+lang;
 
   // //JSON指定
-  let locals = readConfig(`${SRC}/local/`+lang+`.json`);
   let common = readConfig(`${SRC}/local/common.json`);
-  locals = Object.assign(locals, common);
+  let locals = readConfig(`${SRC}/local/`+lang+`.json`);
+  locals = Object.assign(common, locals);
   return gulp.src([`${SRC}/pug/**/*.pug`])
     .pipe(pug({
         locals: locals,
