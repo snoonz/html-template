@@ -18,6 +18,8 @@ const pugTask = (lang) => {
 
   // //JSON指定
   let locals = readConfig(`${SRC}/local/`+lang+`.json`);
+  let common = readConfig(`${SRC}/local/common.json`);
+  locals = Object.assign(locals, common);
   return gulp.src([`${SRC}/pug/**/*.pug`])
     .pipe(pug({
         locals: locals,
@@ -71,7 +73,7 @@ gulp.task('browser-sync', () => {
     });
     watch([
         `${SRC}/pug/**/*.pug`,
-        `${SRC}/json/**/*.json`
+        `${SRC}/local/**/*.json`
     ], gulp.series('html', browserSync.reload));
     watch([
         `${SRC}/img/**/*`
