@@ -164,12 +164,14 @@ nav#menu span.fa.fa-globe {
 }
 
 nav#menu .globe {
+  position: relative;
 	margin-left: 20px;
 }
 
 nav#menu .language-text {
   font-size: 20px;
   margin-left: 10px;
+  vertical-align: middle;
 }
 
 .navmenu, .navbar-offcanvas {
@@ -215,27 +217,25 @@ color: #C59A6D;
 background-color: transparent;
 }
 
-.languages {
+.languages{
   position:absolute;
   list-style-type: none;
   text-align: left;
   font-size: 14px;
   line-height: 2em;
-  background-color: black;
-  width: 140px;
-  padding: 16px;
+  background-color: #1E2429;
   margin-top: 4px;
-  display: none;
   transition: opacity 1s linear 0s;
 }
 
-.languages-shown {
-  display: block;
-  animation: show 0.1s linear 0s;
+.languages > li > a {
+  color: #ffffff;
+  padding: 8px 16px;
 }
 
-.languages a {
-  color: #ffffff;
+.languages > li > a:hover {
+  color: #c59a6d;
+  background-color: inherit;
 }
 
 .languages a:hover {
