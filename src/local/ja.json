@@ -9,7 +9,8 @@
     "service": "nav.Service",
     "portfolio": "nav.Portfolio",
     "about_us": "nav.About Us",
-    "contact_us": "nav.Contact Us"
+    "contact_us": "nav.Contact Us",
+    "current_language": "JA"
   },
   "home": {
     "title": "home.title",

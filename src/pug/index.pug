@@ -46,8 +46,16 @@ html(lang='en')
           a.page-scroll(href='#contact') #{nav.contact_us}
     #home
       .container.text-center
-        nav#menu(data-toggle='offcanvas', data-target='.navmenu')
-          span.fa.fa-bars
+        nav#menu
+          .bars
+            span(data-toggle='offcanvas', data-target='.navmenu').fa.fa-bars
+          .globe
+            span#language-menu.fa.fa-globe
+              span.language-text #{nav.current_language}
+            ul.languages
+              for language, i in languages
+                li
+                  a(href="../" + language_paths[i] + "/") #{language}
         .content
           h4 #{home.title}
           hr
