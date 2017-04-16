@@ -155,6 +155,7 @@ nav#menu {
 	left: 120px;
   z-index: 1;
   display: flex;
+  align-items: center;
 }
 nav#menu span.fa.fa-bars,
 nav#menu span.fa.fa-globe {
@@ -163,14 +164,19 @@ nav#menu span.fa.fa-globe {
 	cursor: pointer;
 }
 
+nav#menu span.fa.fa-globe {
+  font-size: 24px;
+}
+
 nav#menu .globe {
   position: relative;
 	margin-left: 20px;
 }
 
 nav#menu .language-text {
-  font-size: 20px;
-  margin-left: 10px;
+  font-size: 18px;
+  margin-left: 6px;
+  font-family: Helvetica, sans-serif;
   vertical-align: middle;
 }
 

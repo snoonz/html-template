@@ -52,6 +52,7 @@ html(lang='en')
           .globe
             span(data-toggle='dropdown')#language-menu.fa.fa-globe.dropdown-toggle
               span.language-text #{nav.current_language}
+              span.caret
             ul.languages.dropdown-menu
               for language, i in languages
                 li
