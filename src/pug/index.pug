@@ -50,9 +50,9 @@ html(lang='en')
           .bars
             span(data-toggle='offcanvas', data-target='.navmenu').fa.fa-bars
           .globe
-            span#language-menu.fa.fa-globe
+            span(data-toggle='dropdown')#language-menu.fa.fa-globe.dropdown-toggle
               span.language-text #{nav.current_language}
-            ul.languages
+            ul.languages.dropdown-menu
               for language, i in languages
                 li
                   a(href="../" + language_paths[i] + "/") #{language}

@@ -58,15 +58,6 @@ function main() {
 	  });
 
 	});
-
-  $(document).ready(function() {
-    $("#language-menu").on("click", function() {
-      $('.languages').toggleClass('languages-shown');
-    });
-  });
-
-
-
 }());
 
 
