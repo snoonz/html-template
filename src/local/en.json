@@ -1,8 +1,8 @@
 {
-  "title": "Syummy Corporate",
+  "title": "page title",
   "description": "DESCRIPTION",
-  "keyword": "syummy",
-  "author": "Syummy Inc.",
+  "keyword": "keyword",
+  "author": "author",
   "nav": {
     "home": "nav.Home",
     "overview": "nav.Overview",
@@ -19,71 +19,71 @@
   },
   "meet_us": {
     "title": "meat-us.title",
-    "caption": "meat-us.content MMM"
+    "caption": "meat-us.content"
   },
   "service": {
     "title": "service.title",
-    "caption": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-    "item1_title": "titleA",
-    "item1_caption": "captionA",
-    "item2_title": "titleB",
-    "item2_caption": "captionB",
-    "item3_title": "titleC",
-    "item3_caption": "captionC"
+    "caption": "service.caption",
+    "item1_title": "service.titleA",
+    "item1_caption": "service.captionA",
+    "item2_title": "service.titleB",
+    "item2_caption": "service.captionB",
+    "item3_title": "service.titleC",
+    "item3_caption": "service.captionC"
   },
   "works": {
-    "title": "works-title",
-    "caption": "works-caption",
-    "item1_title": "titleA",
-    "item1_caption": "captionA",
-    "item2_title": "titleB",
-    "item2_caption": "captionB",
-    "item3_title": "titleC",
-    "item3_caption": "captionC",
-    "item4_title": "titleD",
-    "item4_caption": "captionD",
+    "title": "works.title",
+    "caption": "works.caption",
+    "item1_title": "works.titleA",
+    "item1_caption": "works.captionA",
+    "item2_title": "works.titleB",
+    "item2_caption": "works.captionB",
+    "item3_title": "works.titleC",
+    "item3_caption": "works.captionC",
+    "item4_title": "works.titleD",
+    "item4_caption": "works.captionD",
   },
   "partner": {
-    "title": "partner",
-    "caption": "caption"
+    "title": "partner.title",
+    "caption": "partner.caption"
   },
   "about_us": {
     "title": "about_us.title",
-    "caption": "caption"
+    "caption": "about_us.caption"
   },
   "testimonial": {
     "title": "testimonial.title",
     "content": [
       {
-        "caption": "Et iusto odio dignissimos ducimus qui blanditiis<br>praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint<br>occaecati cupiditate non provident.",
-        "author": "author1"
+        "caption": "testimonial.caption1",
+        "author": "testimonial.author1"
       },
       {
-        "caption": "caption2",
-        "author": "author2"
+        "caption": "testimonial.caption2",
+        "author": "testimonial.author2"
       },
       {
-        "caption": "caption3",
-        "author": "author3"
+        "caption": "testimonial.caption3",
+        "author": "testimonial.author3"
       },
       {
-        "caption": "caption4",
-        "author": "author4"
+        "caption": "testimonial.caption4",
+        "author": "testimonial.author4"
       }
     ]
   },
   "contact": {
-    "title": "contact us",
+    "title": "contact.title",
     "address_title": "address",
     "address": "AAA<br>BBB<br>CCC<br>Phone",
-    "your_name": "your_name",
-    "email": "Email",
-    "subject": "Subject",
-    "message": "Message",
-    "send": "Send"
+    "your_name": "contact.your_name",
+    "email": "contact.Email",
+    "subject": "contact.subject",
+    "message": "contact.message",
+    "send": "Scontact.send"
   },
   "footer": {
-    "copyright": "copy right",
-    "back_top": "back_top"
+    "copyright": "footer.copyright",
+    "back_top": "footer.back_top"
   }
 }
