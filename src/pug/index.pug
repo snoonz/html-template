@@ -1,5 +1,5 @@
 doctype html
-html(lang='en')
+html(lang=`${lang_code}`)
   head
     meta(charset='utf-8')
     //if IE
@@ -35,13 +35,15 @@ html(lang='en')
         li
           a.page-scroll(href='#home') #{nav.home}
         li
-          a.page-scroll(href='#meet-us') #{nav.overview}
+          a.page-scroll(href='#news') #{nav.news}
         li
-          a.page-scroll(href='#services') #{nav.service}
+          a.page-scroll(href='#concept') #{nav.concept}
         li
-          a.page-scroll(href='#works') #{nav.portfolio}
+          a.page-scroll(href='#service') #{nav.service}
         li
           a.page-scroll(href='#about-us') #{nav.about_us}
+        li
+          a.page-scroll(href='#testimonial') #{nav.testimonial}
         li
           a.page-scroll(href='#contact') #{nav.contact_us}
     #home
@@ -63,59 +65,59 @@ html(lang='en')
           .header-text.btn
             h1
               span#head-title
-        a.down-btn.page-scroll(href='#meet-us')
+        a.down-btn.page-scroll(href='#news')
           span.fa.fa-angle-down
-    #meet-us
+    #news
       .container
         .row.text-center
           .col-md-8.col-md-offset-2
             .section-title
-              h2 #{meet_us.title}
+              h2 #{news.title}
               hr
-            p #{meet_us.caption}
-            a.down-btn.page-scroll(href='#services')
+            p #{news.caption}
+            a.down-btn.page-scroll(href='#concept')
               span.fa.fa-angle-down
     #overview-video
       .overlay
         .container
-    #services
+    #concept
       .container.text-center
         .row
           .col-md-8.col-md-offset-2
             .section-title
-              h2 #{service.title}
+              h2 #{concept.title}
               hr
             p
-              | #{service.caption}
+              | #{concept.caption}
         .space
         .row
           .col-md-4.col-sm-4
             .service
               span.fa.fa-book.fa-3x
-              h4 #{service.item1_title}
-              p #{service.item1_caption}
+              h4 #{concept.item1_title}
+              p #{concept.item1_caption}
           .col-md-4.col-sm-4
             .service
               span.fa.fa-bicycle.fa-3x
-              h4 #{service.item2_title}
-              p #{service.item2_caption}
+              h4 #{concept.item2_title}
+              p #{concept.item2_caption}
           .col-md-4.col-sm-4
             .service
               span.fa.fa-plug.fa-3x
-              h4  #{service.item3_title}
-              p #{service.item3_caption}
-        a.down-btn.page-scroll(href='#works')
+              h4  #{concept.item3_title}
+              p #{concept.item3_caption}
+        a.down-btn.page-scroll(href='#service')
           span.fa.fa-angle-down
     #cta
       .container.text-center
-    #works
+    #service
       .container
         .row.text-center
           .col-md-8.col-md-offset-2
             .section-title
-              h2 #{works.title}
+              h2 #{service.title}
               hr
-            p #{works.caption}
+            p #{service.caption}
         .space
       .container-fluid
         .row
@@ -124,8 +126,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 #{works.item1_title}
-                    p.lead #{works.item1_caption}
+                    h5 #{service.item1_title}
+                    p.lead #{service.item1_caption}
                     .hline
                   |  
                   img.img-responsive(src='../img/portfolio/01.jpg', alt='...')
@@ -134,8 +136,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 #{works.item2_title}
-                    p.lead #{works.item2_caption}
+                    h5 #{service.item2_title}
+                    p.lead #{service.item2_caption}
                     .hline
                   |  
                   img.img-responsive(src='../img/portfolio/02.jpg', alt='...')
@@ -144,8 +146,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 #{works.item3_title}
-                    p.lead #{works.item3_caption}
+                    h5 #{service.item3_title}
+                    p.lead #{service.item3_caption}
                     .hline
                 |  
                 img.img-responsive(src='../img/portfolio/03.jpg', alt='...')
@@ -154,8 +156,8 @@ html(lang='en')
               .hover-bg
                 a(href='#')
                   .hover-text
-                    h5 #{works.item4_title}
-                    p.lead #{works.item4_caption}
+                    h5 #{service.item4_title}
+                    p.lead #{service.item4_caption}
                     .hline
                 |  
                 img.img-responsive(src='../img/portfolio/04.jpg', alt='...')
@@ -238,7 +240,7 @@ html(lang='en')
               hr
           
         .text-center
-          a.page-scroll.down-btn(href='#contact')
+          a.page-scroll.down-btn(href='#testimonial')
             span.fa.fa-angle-down
     #testimonials
       .overlay
@@ -252,6 +254,9 @@ html(lang='en')
                 h3 !{content.caption}
                 br
                 h6 #{content.author}
+        //- .text-center
+        //-   a.page-scroll.down-btn(href='#contact')
+        //-     span.fa.fa-angle-down
     #contact
       .container
         .section-title.text-center

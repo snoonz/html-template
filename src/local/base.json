@@ -5,13 +5,13 @@
   "author": "author",
   "lang_code": "en",
   "nav": {
-    "home": "nav.Home",
+    "home": "nav.home",
     "news": "nav.news",
-    "concept": "nav.Service",
-    "service": "nav.Portfolio",
-    "about_us": "nav.About Us",
+    "concept": "nav.concept",
+    "service": "nav.service",
+    "about_us": "nav.about_us",
     "testimonial": "nav.testimonial",
-    "contact_us": "nav.Contact Us",
+    "contact_us": "nav.contact_us",
     "current_language": "EN"
   },
   "home": {

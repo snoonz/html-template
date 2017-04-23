@@ -28,6 +28,16 @@ const pugTask = (lang) => {
     .pipe(gulp.dest(`${destDir}`));
 }
 
+//ベース言語タスク
+gulp.task('pug:base', () => {
+  return pugTask('base');
+});
+
+//英語タスク
+gulp.task('pug:en', () => {
+  return pugTask('en');
+});
+
 //日本語タスク
 gulp.task('pug:ja', () => {
   return pugTask('ja');
@@ -39,7 +49,7 @@ gulp.task('pug:en', () => {
 });
 
 //日・英両タスクを1つのタスクにまとめる
-gulp.task('html', gulp.series('pug:ja', 'pug:en'));
+gulp.task('html', gulp.series('pug:base', 'pug:ja', 'pug:en'));
 
 // 画像コピー
 gulp.task('images', function() {
