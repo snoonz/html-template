@@ -3,79 +3,69 @@
   "description": "DESCRIPTION",
   "keyword": "keyword",
   "author": "author",
+  "lang_code": "ja",
   "nav": {
-    "home": "nav.Home",
-    "overview": "nav.Overview",
-    "service": "nav.Service",
-    "portfolio": "nav.Portfolio",
-    "about_us": "nav.About Us",
-    "contact_us": "nav.Contact Us",
-    "current_language": "JA"
+    "home": "Home",
+    "news": "News",
+    "concept": "Concept",
+    "service": "Service",
+    "about_us": "About Us",
+    "testimonial": "Testimonial",
+    "contact_us": "Contact Us",
+    "current_language": "言語切替"
   },
   "home": {
-    "title": "home.title",
-    "catch1": "home.catch1",
-    "catch2": "home.catch2",
-    "catch3": "home.catch3"
+    "title": "2016 Syummy Inc.が動き始めました",
+    "catch1": "worldwide",
+    "catch2": "communication",
+    "catch3": "innovation"
   },
-  "meet_us": {
-    "title": "meat-us.title",
-    "caption": "meat-us.content"
+  "news": {
+    "title": "News",
+    "caption": ""
+  },
+  "concept": {
+    "title": "Concept",
+    "caption": "Syummyが掲げる3つのコンセプト",
+    "item1_title": "WORLDWIDE",
+    "item1_caption": "ワールドワイドにサービスを広げたい。",
+    "item2_title": "COMMUNICATION",
+    "item2_caption": "人と人のをサービスで結びつけたい。",
+    "item3_title": "INNOVATION",
+    "item3_caption": "新しい価値感のサービスを生み出したい。"
   },
   "service": {
-    "title": "service.title",
-    "caption": "service.caption",
-    "item1_title": "service.titleA",
-    "item1_caption": "service.captionA",
-    "item2_title": "service.titleB",
-    "item2_caption": "service.captionB",
-    "item3_title": "service.titleC",
-    "item3_caption": "service.captionC"
-  },
-  "works": {
-    "title": "works.title",
-    "caption": "works.caption",
-    "item1_title": "works.titleA",
-    "item1_caption": "works.captionA",
-    "item2_title": "works.titleB",
-    "item2_caption": "works.captionB",
-    "item3_title": "works.titleC",
-    "item3_caption": "works.captionC",
-    "item4_title": "works.titleD",
-    "item4_caption": "works.captionD"
+    "title": "Service",
+    "caption": "",
+    "item1_title": "Syummy",
+    "item1_caption": "Logo",
+    "item2_title": "",
+    "item2_caption": "世界中に友達いたらいいよね。そんな気持ちをアプリで実現してみました。",
+    "item3_title": "enx",
+    "item3_caption": "Logo",
+    "item4_title": "",
+    "item4_caption": "少子化対策？先ずは恋愛することからはじめよう。飲み会での必需アプリ。"
   },
   "partner": {
-    "title": "partner.title",
-    "caption": "partner.caption"
+    "title": "",
+    "caption": ""
   },
   "about_us": {
-    "title": "about_us.title",
-    "caption": "about_us.caption"
+    "title": "About Us",
+    "caption": "Syummyの変わり者集団"
   },
   "testimonial": {
-    "title": "testimonial.title",
+    "title": "Testimonial",
     "content": [
       {
-        "caption": "testimonial.caption1",
-        "author": "testimonial.author1"
-      },
-      {
-        "caption": "testimonial.caption2",
-        "author": "testimonial.author2"
-      },
-      {
-        "caption": "testimonial.caption3",
-        "author": "testimonial.author3"
-      },
-      {
-        "caption": "testimonial.caption4",
-        "author": "testimonial.author4"
+        "caption": "準備中",
+        "author": ""
       }
     ]
   },
   "contact": {
-    "title": "contact.title",
-    "address_title": "address",
+    "title": "Contact",
+    "address_title": "Address",
     "address": "AAA<br>BBB<br>CCC<br>Phone",
     "your_name": "contact.your_name",
     "email": "contact.Email",
