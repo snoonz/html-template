@@ -1,6 +1,6 @@
 @media only screen and (max-width: 608px){
 nav#menu {
-left: 60px;
+padding-left: 60px;
 }
 .header-text.btn {
 height: auto;
@@ -16,7 +16,7 @@ h3 {
     font-size: 12px;
 }
 nav#menu {
-left: 30px;
+padding-left: 30px;
 }
 .content {
 padding-top: 30%;
