@@ -357,38 +357,17 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
-.portfolio-item{
-	height: 280px;
-	overflow: hidden;
+.portfolio-item {
 	position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background: #ffffff;
-}
-
-.portfolio-logo, .portfolio-text {
-
-	color: #ffffff;
-	background: rgba(0, 0, 0, 0.8);
-
-	/*height: 100%;
-	width: 100%;*/
+  flex-flow: column;
 }
 
 .portfolio-text {
-  padding: 30% 20px;
+  max-width: 300px;
+  margin:auto;
+  padding: 40px 20px;
 }
-
-.portfolio-logo {
-  background: red;
-}
-
-.portfolio-logo img {
-
-}
-
 
 .hline{
 	height: 5px;
