@@ -123,44 +123,28 @@ html(lang=`${lang_code}`)
         .row
           .col-md-3.col-sm-6.nopadding
             .portfolio-item
-              .hover-bg
-                a(href='#')
-                  .hover-text
-                    h5 #{service.item1_title}
-                    p.lead #{service.item1_caption}
-                    .hline
-                  |  
-                  img.img-responsive(src='../img/portfolio/01.jpg', alt='...')
+              a(href='#')
+                .portfolio-logo
+                  h5
+                    img(src='../img/service/logo_dummy.png', alt='...')
           .col-md-3.col-sm-6.nopadding
             .portfolio-item
-              .hover-bg
-                a(href='#')
-                  .hover-text
-                    h5 #{service.item2_title}
-                    p.lead #{service.item2_caption}
-                    .hline
-                  |  
-                  img.img-responsive(src='../img/portfolio/02.jpg', alt='...')
+              a(href='#')
+                .portfolio-text
+                  p #{service.item2_caption}
+                  .hline
           .col-md-3.col-sm-6.nopadding
             .portfolio-item
-              .hover-bg
-                a(href='#')
-                  .hover-text
-                    h5 #{service.item3_title}
-                    p.lead #{service.item3_caption}
-                    .hline
-                |  
-                img.img-responsive(src='../img/portfolio/03.jpg', alt='...')
+              a(href='#')
+                .portfolio-logo
+                  h5
+                    img(src='../img/service/logo_dummy.png', alt='...')
           .col-md-3.col-sm-6.nopadding
             .portfolio-item
-              .hover-bg
-                a(href='#')
-                  .hover-text
-                    h5 #{service.item4_title}
-                    p.lead #{service.item4_caption}
-                    .hline
-                |  
-                img.img-responsive(src='../img/portfolio/04.jpg', alt='...')
+              a(href='#')
+                .portfolio-text
+                  p #{service.item4_caption}
+                  .hline
       .text-center
         a.down-btn.page-scroll(href='#about-us')
           span.fa.fa-angle-down
