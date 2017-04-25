@@ -35,31 +35,48 @@ function main() {
 
 
     /* ==============================================
-	Testimonial Slider
-	=============================================== */
+  Testimonial Slider
+  =============================================== */
 
-	$(document).ready(function() {
+  $(document).ready(function() {
 
-	  $("#testimonial").owlCarousel({
+    $("#testimonial").owlCarousel({
 
-	      navigation : false, // Show next and prev buttons
-	      slideSpeed : 300,
-	      paginationSpeed : 400,
-	      singleItem:true,
-	      autoHeight : true
+        navigation : false, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true,
+        autoHeight : true
 
-	      // "singleItem:true" is a shortcut for:
-	      // items : 1,
-	      // itemsDesktop : false,
-	      // itemsDesktopSmall : false,
-	      // itemsTablet: false,
-	      // itemsMobile : false
+        // "singleItem:true" is a shortcut for:
+        // items : 1,
+        // itemsDesktop : false,
+        // itemsDesktopSmall : false,
+        // itemsTablet: false,
+        // itemsMobile : false
 
-	  });
+    });
 
-	});
+  });
 }());
 
+var setTimeoutId = null;
+$(document).on('scroll', function(){
+  if( setTimeoutId ) {
+    return false;
+  }
+
+  setTimeoutId = setTimeout( function() {
+    // スクロールイベントの処理内容
+    if ($(window).scrollTop() > 50) {
+      $('#menu').addClass('fixed');
+    } else {
+      $('#menu').removeClass('fixed');
+    }
+
+    setTimeoutId = null ;
+  }, 250 ) ;
+});
 
 }
 main();

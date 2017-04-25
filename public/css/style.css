@@ -151,12 +151,23 @@ span.typed-cursor {
 }*/
 
 nav#menu {
-  position: fixed;
-	left: 120px;
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  width: 100%;
   z-index: 1;
   display: flex;
   align-items: center;
 }
+
+nav#menu.fixed {
+  position: fixed;
+  padding-top: 10px;
+  background-color: rgba(0,0,0,0.65);
+  transition: background 0.2s ease-in;
+}
+
 nav#menu span.fa.fa-bars,
 nav#menu span.fa.fa-globe {
 	font-size: 30px;
@@ -365,7 +376,7 @@ a.btn.go-to-btn:hover{
 }
 
 .portfolio-item p {
-  padding-top: 16px;
+  padding-top: 12px;
   max-width: 200px;
 }
 

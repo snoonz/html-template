@@ -46,19 +46,19 @@ html(lang=`${lang_code}`)
           a.page-scroll(href='#testimonial') #{nav.testimonial}
         li
           a.page-scroll(href='#contact') #{nav.contact_us}
+    nav#menu
+        .bars
+          span(data-toggle='offcanvas', data-target='.navmenu').fa.fa-bars
+        .globe
+          span(data-toggle='dropdown')#language-menu.fa.fa-globe.dropdown-toggle
+            span.language-text #{nav.current_language}
+            span.caret
+          ul.languages.dropdown-menu
+            for language, i in languages
+              li
+                a(href="../" + language_paths[i] + "/") #{language}
     #home
       .container.text-center
-        nav#menu
-          .bars
-            span(data-toggle='offcanvas', data-target='.navmenu').fa.fa-bars
-          .globe
-            span(data-toggle='dropdown')#language-menu.fa.fa-globe.dropdown-toggle
-              span.language-text #{nav.current_language}
-              span.caret
-            ul.languages.dropdown-menu
-              for language, i in languages
-                li
-                  a(href="../" + language_paths[i] + "/") #{language}
         .content
           h4 #{home.title}
           hr
