@@ -376,8 +376,8 @@ a.btn.go-to-btn:hover{
 }
 
 .portfolio-item p {
-  padding-top: 12px;
-  max-width: 200px;
+  padding: 40px 20px;
+  max-width: 300px;
 }
 
 
