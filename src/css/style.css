@@ -357,8 +357,17 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
+.portfolio-container, .portfolio-content  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-content {
+  margin-bottom: 32px;
+}
+
 .portfolio-item {
-	position: relative;
   display: flex;
   flex-flow: column;
 }
