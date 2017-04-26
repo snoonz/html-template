@@ -368,6 +368,18 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
+<<<<<<< HEAD
+.portfolio-item {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.portfolio-item p {
+  padding: 40px 20px;
+  max-width: 300px;
+=======
 .portfolio-container  {
   display: flex;
   justify-content: center;
@@ -396,6 +408,7 @@ a.btn.go-to-btn:hover{
   max-width: 300px;
   margin:auto;
   padding: 40px 20px;
+>>>>>>> column
 }
 
 .hline{

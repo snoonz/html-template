@@ -151,23 +151,12 @@ span.typed-cursor {
 }*/
 
 nav#menu {
-  position: absolute;
-  padding-left: 120px;
-  padding-top: 60px;
-  padding-bottom: 10px;
-  width: 100%;
+  position: fixed;
+	left: 120px;
   z-index: 1;
   display: flex;
   align-items: center;
 }
-
-nav#menu.fixed {
-  position: fixed;
-  padding-top: 10px;
-  background-color: rgba(0,0,0,0.65);
-  transition: background 0.2s ease-in;
-}
-
 nav#menu span.fa.fa-bars,
 nav#menu span.fa.fa-globe {
 	font-size: 30px;
