@@ -118,20 +118,28 @@ html(lang=`${lang_code}`)
               h2 #{service.title}
               hr
             p #{service.caption}
-      .container.text-center
-        .row
-          .col-md-6.col-sm-6
+        .space
+      .container-fluid
+        .portfolio-container.text-center
+          .portfolio-content
+            .portfolio-item
+              h5 Syummy
+              div
+               img(src='../img/service/logo_dummy.png', alt='...')
+            .portfolio-item
               a(href='#')
-                .portfolio-item
-                  h5 Syummy
-                  img(src='../img/service/logo_dummy.png', alt='...')
+                .portfolio-text
                   p #{service.item2_caption}
                   .hline
-          .col-md-6.col-sm-6
+          .portfolio-content
+            .portfolio-item
               a(href='#')
-                .portfolio-item
                   h5 enx
-                  img(src='../img/service/logo_dummy.png', alt='...')
+                  div
+                   img(src='../img/service/logo_dummy.png', alt='...')
+            .portfolio-item
+              a(href='#')
+                .portfolio-text
                   p #{service.item4_caption}
                   .hline
       .text-center
