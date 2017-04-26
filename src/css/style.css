@@ -368,18 +368,35 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
+.portfolio-container  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-content {
+  display: flex;
+  margin-bottom: 32px;
+  margin: 0 30px;
+  flex-flow: column;
+}
+
+@media (max-width:560px) {
+  .portfolio-container {
+    flex-wrap: wrap;
+  }
+}
+
 .portfolio-item {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  margin-top: 60px;
+  flex-flow: column;
 }
 
-.portfolio-item p {
-  padding: 40px 20px;
+.portfolio-text {
   max-width: 300px;
+  margin:auto;
+  padding: 40px 20px;
 }
-
 
 .hline{
 	height: 5px;
