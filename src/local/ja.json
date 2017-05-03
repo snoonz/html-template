@@ -67,17 +67,17 @@
     ]
   },
   "contact": {
-    "title": "Contact",
+    "title": "CONTACT US",
     "address_title": "Address",
     "address": "100-0005<br>Tokyo<br>1Chome-8-3 Marunouchi,<br>Chiyoda,<br>Marunouchi Trust Tower main 20F<br>JAPAN",
-    "your_name": "contact.your_name",
-    "email": "contact.Email",
-    "subject": "contact.subject",
-    "message": "contact.message",
+    "your_name": "Your name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
     "send": "Send"
   },
   "footer": {
-    "copyright": "footer.copyright",
-    "back_top": "footer.back_top"
+    "copyright": "Copyright",
+    "back_top": "Back top"
   }
 }

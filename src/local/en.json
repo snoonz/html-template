@@ -5,79 +5,79 @@
   "author": "author",
   "lang_code": "en",
   "nav": {
-    "home": "nav.home",
-    "news": "nav.news",
-    "concept": "nav.concept",
-    "service": "nav.service",
-    "about_us": "nav.about_us",
-    "testimonial": "nav.testimonial",
-    "contact_us": "nav.contact_us",
-    "current_language": "EN"
+    "home": "HOME",
+    "news": "NEWS",
+    "concept": "CONCEPT",
+    "service": "SERVICE",
+    "about_us": "ABOUT US",
+    "testimonial": "TESTIMONIAL",
+    "contact_us": "CONTACT US",
+    "current_language": "LANGUAGE"
   },
   "home": {
-    "title": "home.title",
-    "catch1": "home.catch1",
-    "catch2": "home.catch2",
-    "catch3": "home.catch3"
+    "title": "Kick started in 2016",
+    "catch1": "WORLDWIDE",
+    "catch2": "COMMUNICATION",
+    "catch3": "INNOVATION"
   },
   "news": {
-    "title": "news.title",
-    "caption": "news.content"
+    "title": "NEWS",
+    "caption": "In preparation"
   },
   "overview": {
     "title": "Fabulous meal experience anywhere in the world, not alone."
   },
   "concept": {
-    "title": "concept.title",
-    "caption": "concept.caption",
-    "item1_title": "concept.titleA",
-    "item1_caption": "concept.captionA",
-    "item2_title": "concept.titleB",
-    "item2_caption": "concept.captionB",
-    "item3_title": "concept.titleC",
-    "item3_caption": "concept.captionC"
+    "title": "CONCEPT",
+    "caption": "Three \"Syummy\" Concepts",
+    "item1_title": "WORLDWIDE",
+    "item1_caption": "To provide our service worldwide",
+    "item2_title": "COMMUNICATION",
+    "item2_caption": "To connect people",
+    "item3_title": "INNOVATION",
+    "item3_caption": "To create service with new values"
   },
   "service": {
-    "title": "service.title",
-    "caption": "services.caption",
-    "item1_title": "service.titleA",
-    "item1_caption": "service.captionA",
-    "item2_title": "service.titleB",
-    "item2_caption": "service.captionB",
-    "item3_title": "service.titleC",
-    "item3_caption": "service.captionC",
-    "item4_title": "service.titleD",
-    "item4_caption": "service.captionD"
+    "title": "SERVICE",
+    "caption": "",
+    "item1_title": "Syummy",
+    "item1_caption": "Logo",
+    "item2_title": "",
+    "item2_caption": "Wouldn't that be great to have friends all over the world? That's where our App all started.",
+    "item3_title": "enx",
+    "item3_caption": "Logo",
+    "item4_title": "",
+    "item4_caption": "Must-have App at a party! Why don't we find romance and work against the falling birth rate?"
   },
   "partner": {
-    "title": "partner.title",
-    "caption": "partner.caption"
+    "title": "",
+    "caption": ""
   },
   "about_us": {
-    "title": "about_us.title",
-    "caption": "about_us.caption"
+    "title": "ABOUT US",
+    "caption": "Crazy crew at Syummy"
   },
   "testimonial": {
-    "title": "testimonial.title",
+    "title": "TESTIMONIAL",
     "content": [
       {
-        "caption": "testimonial.caption1",
-        "author": "testimonial.author1"
+        "caption": "In preparation",
+        "author": ""
       }
     ]
   },
   "contact": {
-    "title": "contact.title",
+    "title": "Contact Us",
     "address_title": "address",
-    "address": "AAA<br>BBB<br>CCC<br>Phone",
-    "your_name": "contact.your_name",
-    "email": "contact.Email",
-    "subject": "contact.subject",
-    "message": "contact.message",
-    "send": "Scontact.send"
+    "address": "100-0005<br>Tokyo<br>1Chome-8-3 Marunouchi,<br>Chiyoda,<br>Marunouchi Trust Tower main 20F<br>JAPAN",
+    "your_name": "Your name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
   },
   "footer": {
-    "copyright": "footer.copyright",
-    "back_top": "footer.back_top"
+    "copyright": "Copyright",
+    "back_top": "Back top"
   }
 }
