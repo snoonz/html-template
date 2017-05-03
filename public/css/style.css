@@ -83,12 +83,19 @@ a:focus{
 .content{
 	padding-top: 16%;
 }
+
 .header-text.btn{
+  position: relative;
 	border: 1px solid #ffffff;
 	border-radius: 0;
 	padding: 10px 30px;
 	height: 100px;
 }
+
+.header-text h1 {
+  margin: 15px 0;
+}
+
 .header-text.btn:hover{
 	color: inherit;
 }
@@ -318,7 +325,7 @@ a.down-btn span.fa.fa-angle-down {
 
 img.concept-icon {
   width: 42px;
-  
+
 }
 
 .service{
