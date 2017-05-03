@@ -24,13 +24,16 @@
     "title": "News",
     "caption": "準備中"
   },
+  "overview": {
+    "title": "Fabulous meal experience anywhere in the world, not alone."
+  },
   "concept": {
     "title": "Concept",
     "caption": "Syummyが掲げる3つのコンセプト",
     "item1_title": "WORLDWIDE",
     "item1_caption": "ワールドワイドにサービスを広げたい。",
     "item2_title": "COMMUNICATION",
-    "item2_caption": "人と人のをサービスで結びつけたい。",
+    "item2_caption": "人と人をサービスで結びつけたい。",
     "item3_title": "INNOVATION",
     "item3_caption": "新しい価値感のサービスを生み出したい。"
   },
@@ -66,7 +69,7 @@
   "contact": {
     "title": "Contact",
     "address_title": "Address",
-    "address": "AAA<br>BBB<br>CCC<br>Phone",
+    "address": "100-0005<br>Tokyo<br>1Chome-8-3 Marunouchi,<br>Chiyoda,<br>Marunouchi Trust Tower main 20F<br>JAPAN",
     "your_name": "contact.your_name",
     "email": "contact.Email",
     "subject": "contact.subject",

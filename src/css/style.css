@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,600,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
 
@@ -306,13 +306,14 @@ a.down-btn span.fa.fa-angle-down {
 	height: auto;
 	min-height: 200px;
 	padding: 12% 0 ;
+  color: #ffffff;
 }
 
-#overview-video a span.fa.fa-play {
-	font-size: 40px;
-	color: #fff;
-	text-align: center;
-	margin: auto 0;
+#overview-video h4 {
+  margin: auto;
+  max-width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .service{
