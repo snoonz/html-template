@@ -316,6 +316,11 @@ a.down-btn span.fa.fa-angle-down {
   font-weight: 700;
 }
 
+img.concept-icon {
+  width: 42px;
+  
+}
+
 .service{
 	border: 1px solid #222;
 	margin-top: 20px;
