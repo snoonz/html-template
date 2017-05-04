@@ -55,12 +55,12 @@
     "member": [
       {
         "name": "川上核人",
-        "position": "CEO・Founder",
+        "position": "CEO/Founder",
         "image": "no_avatar.png"
       },
       {
         "name": "今井健二",
-        "position": "CFO・Co-founder",
+        "position": "CFO/Co-founder",
         "image": "no_avatar.png"
       },
       {
@@ -70,27 +70,27 @@
       },
       {
         "name": "岡本順子",
-        "position": "CCO・Shanghai Branch Chief",
+        "position": "CCO/Shanghai Branch Chief",
         "image": "no_avatar.png"
       },
       {
         "name": "日當瀬 幸太",
-        "position": "Android Development Manager・Corporate Officer",
+        "position": "Android Development Manager/Corporate Officer",
         "image": "no_avatar.png"
       },
       {
         "name": "長谷川祐介",
-        "position": "iOS Development Manager・Corporate Officer",
+        "position": "iOS Development Manager/Corporate Officer",
         "image": "yusuke_hasegawa.jpg"
       },
       {
         "name": "千賀悠一",
-        "position": "iOS Development Manager・Corporate Officer",
+        "position": "iOS Development Manager/Corporate Officer",
         "image": "yuichi_senga.jpg"
       },
       {
         "name": "佐藤英武",
-        "position": "Bangkok Branch Chief・Corporate Officer",
+        "position": "Bangkok Branch Chief/Corporate Officer",
         "image": "hidetake_sato.jpg"
       },
       {
