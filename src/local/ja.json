@@ -16,9 +16,9 @@
   },
   "home": {
     "title": "2016 Syummy Inc.が動き始めました",
-    "catch1": "worldwide",
-    "catch2": "communication",
-    "catch3": "innovation"
+    "catch1": "WORLDWIDE",
+    "catch2": "COMMUNICATION",
+    "catch3": "INNOVATION"
   },
   "news": {
     "title": "News",
@@ -41,13 +41,9 @@
     "title": "Service",
     "caption": "",
     "item1_title": "Syummy",
-    "item1_caption": "Logo",
-    "item2_title": "",
-    "item2_caption": "世界中に友達いたらいいよね。そんな気持ちをアプリで実現してみました。",
-    "item3_title": "enx",
-    "item3_caption": "Logo",
-    "item4_title": "",
-    "item4_caption": "少子化対策？先ずは恋愛することからはじめよう。飲み会での必需アプリ。"
+    "item1_caption": "世界中に友達いたらいいよね。そんな気持ちをアプリで実現してみました。",
+    "item2_title": "enx",
+    "item2_caption": "少子化対策？先ずは恋愛することからはじめよう。飲み会での必需アプリ。"
   },
   "partner": {
     "title": "",
@@ -55,7 +51,64 @@
   },
   "about_us": {
     "title": "About Us",
-    "caption": "Syummyの変わり者集団"
+    "caption": "Syummyの変わり者集団",
+    "member": [
+      {
+        "name": "川上核人",
+        "position": "CEO・Founder",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "今井健二",
+        "position": "CFO・Co-founder",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "大重裕一",
+        "position": "COO",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "岡本順子",
+        "position": "CCO・Shanghai Branch Chief",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "日當瀬 幸太",
+        "position": "Android Development Manager・Corporate Officer",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "長谷川祐介",
+        "position": "iOS Development Manager・Corporate Officer",
+        "image": "yusuke_hasegawa.jpg"
+      },
+      {
+        "name": "千賀悠一",
+        "position": "iOS Development Manager・Corporate Officer",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "佐藤英武",
+        "position": "Bangkok Branch Chief・Corporate Officer",
+        "image": "hidetake_sato.jpg"
+      },
+      {
+        "name": "Wanting Wu",
+        "position": "Taipei Branch Chief",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "綿谷江利菜",
+        "position": "Translator",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "神原太郎",
+        "position": "Stakeholder",
+        "image": "no_avatar.png"
+      }
+    ]
   },
   "testimonial": {
     "title": "Testimonial",
