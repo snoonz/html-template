@@ -123,23 +123,22 @@ html(lang=`${lang_code}`)
       .container-fluid
         .portfolio-container.text-center
           .portfolio-content
-            .portfolio-item
-              h5 #{service.item1_title}
-              div
-               img(src='../img/service/logo_dummy.png', alt='...')
-            .portfolio-item
-              a(href='#')
+            a(href=syummy_url)
+              .portfolio-item
+                h5 #{service.item1_title}
+                div
+                 img(src='../img/service/syummy_logo.jpg', alt`${service.item1_title} logo`)
+              .portfolio-item
                 .portfolio-text
                   p #{service.item1_caption}
                   .hline
           .portfolio-content
-            .portfolio-item
-              a(href='#')
-                  h5 #{service.item2_title}
-                  div
-                   img(src='../img/service/logo_dummy.png', alt='...')
-            .portfolio-item
-              a(href='#')
+            a(href=enx_url)
+              .portfolio-item
+                h5 #{service.item2_title}
+                div
+                 img(src='../img/service/enx_logo.png', alt=`${service.item2_title} logo`)
+              .portfolio-item
                 .portfolio-text
                   p #{service.item2_caption}
                   .hline

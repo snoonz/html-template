@@ -409,6 +409,10 @@ a.btn.go-to-btn:hover{
   padding: 40px 20px;
 }
 
+.portfolio-item img {
+  width: 180px;
+}
+
 .hline{
 	height: 5px;
 	width: 30px;
