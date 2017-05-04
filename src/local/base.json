@@ -52,7 +52,14 @@
   },
   "about_us": {
     "title": "about_us.title",
-    "caption": "about_us.caption"
+    "caption": "about_us.caption",
+    "member": [
+      {
+        "name": "Dr. A",
+        "position": "Professor",
+        "image": "no_avator.png"
+      }
+    ]
   },
   "testimonial": {
     "title": "testimonial.title",

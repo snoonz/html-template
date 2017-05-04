@@ -41,13 +41,9 @@
     "title": "SERVICE",
     "caption": "",
     "item1_title": "Syummy",
-    "item1_caption": "Logo",
-    "item2_title": "",
-    "item2_caption": "Wouldn't that be great to have friends all over the world? That's where our App all started.",
-    "item3_title": "enx",
-    "item3_caption": "Logo",
-    "item4_title": "",
-    "item4_caption": "Must-have App at a party! Why don't we find romance and work against the falling birth rate?"
+    "item1_caption": "Wouldn't that be great to have friends all over the world? That's where our App all started.",
+    "item2_title": "enx",
+    "item2_caption": "Must-have App at a party! Why don't we find romance and work against the falling birth rate?"
   },
   "partner": {
     "title": "",
@@ -55,7 +51,64 @@
   },
   "about_us": {
     "title": "ABOUT US",
-    "caption": "Crazy crew at Syummy"
+    "caption": "Crazy crew at Syummy",
+    "member": [
+      {
+        "name": "Kakuto Kawakami",
+        "position": "CEO・Founder",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Kenji Imai",
+        "position": "CFO・Co-founder",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Yuichi Oshige",
+        "position": "COO",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Yukiko Okamoto",
+        "position": "CCO・Shanghai Branch Chief",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Kota Hinatase",
+        "position": "Android Development Manager・Corporate Officer",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Yusuke Hasegawa",
+        "position": "iOS Development Manager・Corporate Officer",
+        "image": "yusuke_hasegawa.jpg"
+      },
+      {
+        "name": "Yuichi Senga",
+        "position": "iOS Development Manager・Corporate Officer",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Hidetake Sato",
+        "position": "Bangkok Branch Chief・Corporate Officer",
+        "image": "hidetake_sato.jpg"
+      },
+      {
+        "name": "Wanting Wu",
+        "position": "Taipei Branch Chief",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Erina Wataya",
+        "position": "Translator",
+        "image": "no_avatar.png"
+      },
+      {
+        "name": "Taro Kanbara",
+        "position": "Stakeholder",
+        "image": "no_avatar.png"
+      }
+    ]
   },
   "testimonial": {
     "title": "TESTIMONIAL",

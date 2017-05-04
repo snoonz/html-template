@@ -124,24 +124,24 @@ html(lang=`${lang_code}`)
         .portfolio-container.text-center
           .portfolio-content
             .portfolio-item
-              h5 Syummy
+              h5 #{service.item1_title}
               div
                img(src='../img/service/logo_dummy.png', alt='...')
             .portfolio-item
               a(href='#')
                 .portfolio-text
-                  p #{service.item2_caption}
+                  p #{service.item1_caption}
                   .hline
           .portfolio-content
             .portfolio-item
               a(href='#')
-                  h5 enx
+                  h5 #{service.item2_title}
                   div
                    img(src='../img/service/logo_dummy.png', alt='...')
             .portfolio-item
               a(href='#')
                 .portfolio-text
-                  p #{service.item4_caption}
+                  p #{service.item2_caption}
                   .hline
       .text-center
         a.down-btn.page-scroll(href='#about-us')
@@ -175,50 +175,23 @@ html(lang=`${lang_code}`)
               hr
             p #{about_us.caption}
         .space
-        .row
-          .col-md-3.col-sm-3
-            .team
-              img.img-responsive.img-circle(src='../img/team/hidetake_sato.jpg', alt='...')
-              br
-              h4 Lian Gwapa
-              p.small CEO/Founder
-              hr
-          .col-md-3.col-sm-3
-            .team
-              img.img-responsive.img-circle(src='../img/team/04.jpg', alt='...')
-              br
-              h4 Jenn Pereira
-              p.small Web Coder
-              hr
-          .col-md-3.col-sm-3
-            .team
-              img.img-responsive.img-circle(src='../img/team/03.jpg', alt='...')
-              br
-              h4 Alan Podemski
-              p.small Web Designer
-              hr
-          .col-md-3.col-sm-3
-            .team
-              img.img-responsive.img-circle(src='../img/team/02.jpg', alt='...')
-              br
-              h4 Lian Gwapa
-              p.small CEO/Founder
-              hr
-        .row
-          .col-md-3.col-sm-3
-            .team
-              img.img-responsive.img-circle(src='../img/team/04.jpg', alt='...')
-              br
-              h4 Jenn Pereira
-              p.small Web Coder
-              hr
-          .col-md-3.col-sm-3
-            .team
-              img.img-responsive.img-circle(src='../img/team/03.jpg', alt='...')
-              br
-              h4 Alan Podemski
-              p.small Web Designer
-              hr
+        - for (let i = 0; i < about_us.member.length / 4; i++) {
+          .row
+            - for (let j = 0; j < 4; j++) {
+              - let person = about_us.member[4*i+j];
+              - if (!person) {
+                - break;
+              - }
+              .col-md-3.col-sm-3
+                .team
+                  img.img-responsive.img-circle(src='../img/team/'+ `${person.image}`, alt=`${person.name}`)
+                  br
+                  h4 #{person.name}
+                  p.small #{person.position}
+                  hr
+            - }
+        - }
+        
           
         .text-center
           a.page-scroll.down-btn(href='#testimonial')
