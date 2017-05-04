@@ -2,5 +2,7 @@
   "url" : "https://yahoo.com",
   "facebook_url": "https://www.facebook.com/syummy.japan",
   "languages": ["English", "日本語"],
-  "language_paths": ["en", "ja"]
+  "language_paths": ["en", "ja"],
+  "enx_url": "https://enx.life/",
+  "syummy_url": "http://www.syummy.com"
 }

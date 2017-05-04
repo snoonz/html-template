@@ -55,42 +55,42 @@
     "member": [
       {
         "name": "Kakuto Kawakami",
-        "position": "CEO・Founder",
+        "position": "CEO/Founder",
         "image": "no_avatar.png"
       },
       {
         "name": "Kenji Imai",
-        "position": "CFO・Co-founder",
+        "position": "CFO/Co-founder",
         "image": "no_avatar.png"
       },
       {
         "name": "Yuichi Oshige",
         "position": "COO",
-        "image": "no_avatar.png"
+        "image": "yuichi_senga.jpg"
       },
       {
         "name": "Yukiko Okamoto",
-        "position": "CCO・Shanghai Branch Chief",
+        "position": "CCO/Shanghai Branch Chief",
         "image": "no_avatar.png"
       },
       {
         "name": "Kota Hinatase",
-        "position": "Android Development Manager・Corporate Officer",
+        "position": "Android Development Manager/Corporate Officer",
         "image": "no_avatar.png"
       },
       {
         "name": "Yusuke Hasegawa",
-        "position": "iOS Development Manager・Corporate Officer",
+        "position": "iOS Development Manager/Corporate Officer",
         "image": "yusuke_hasegawa.jpg"
       },
       {
         "name": "Yuichi Senga",
-        "position": "iOS Development Manager・Corporate Officer",
+        "position": "iOS Development Manager/Corporate Officer",
         "image": "no_avatar.png"
       },
       {
         "name": "Hidetake Sato",
-        "position": "Bangkok Branch Chief・Corporate Officer",
+        "position": "Bangkok Branch Chief/Corporate Officer",
         "image": "hidetake_sato.jpg"
       },
       {
