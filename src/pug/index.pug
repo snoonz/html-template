@@ -28,8 +28,9 @@ html(lang=`${lang_code}`)
       script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
   body
     .navmenu.navmenu-default.navmenu-fixed-left.offcanvas
-      .close(data-toggle='offcanvas', data-target='.navmenu')
-        span.fa.fa-close
+      a(href="javascript:void(0);")
+        .close(data-toggle='offcanvas', data-target='.navmenu')
+          span.fa.fa-close
       .add-margin
       ul.nav.navmenu-nav
         li
