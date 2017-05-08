@@ -34,6 +34,12 @@ function main() {
     });
 
 
+// イベントを効かせるためにiOSのみCSSを追加
+    var agent = navigator.userAgent;
+    if ( agent.indexOf('iPhone') > 0 || agent.indexOf('iPad') > 0 || agent.indexOf('iPod') > 0) {
+      $("body").addClass("iOS");
+    };
+
     /* ==============================================
   Testimonial Slider
   =============================================== */

@@ -3,9 +3,6 @@ nav#menu {
 padding-left: 60px;
 }
 
-.hover-bg .hover-text {
-padding: 15% 0;
-}
 }
 
 @media only screen and (max-width: 480px){
