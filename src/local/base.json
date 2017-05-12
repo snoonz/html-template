@@ -24,6 +24,9 @@
     "title": "news.title",
     "caption": "news.content"
   },
+  "overview": {
+    "title": "overview.title"
+  },
   "concept": {
     "title": "concept.title",
     "caption": "concept.caption",
