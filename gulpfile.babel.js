@@ -49,7 +49,7 @@ gulp.task('pug:en', () => {
 });
 
 //日・英両タスクを1つのタスクにまとめる
-gulp.task('html', gulp.series('pug:base', 'pug:ja', 'pug:en'));
+gulp.task('html', gulp.series('pug:ja', 'pug:en'));
 
 // 画像コピー
 gulp.task('images', function() {
