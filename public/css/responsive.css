@@ -1,0 +1,61 @@
+@media only screen and (max-width: 608px){
+nav#menu {
+padding-left: 60px;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+h1 {
+    font-size: 34px;
+}
+
+.header-text.btn {
+    height: 88px;
+    padding: 10px 26px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+nav#menu {
+padding-left: 30px;
+}
+
+.content {
+padding-top: 30%;
+}
+
+#overview-video .overlay {
+    padding: 30% 0px;
+}
+
+.pull-left,
+.pull-right {
+    float: none !important;
+    text-align: center;
+}
+
+@media only screen and (max-width: 380px){
+h1 {
+    font-size: 30px;
+}
+
+.header-text.btn {
+    height: 76px;
+    padding: 6px 16px;
+}
+
+}
+@media only screen and (max-width: 320px){
+h1 {
+    font-size: 28px;
+}
+
+.header-text.btn {
+    height: 66px;
+    padding: 3px 16px;
+}
+
+}
