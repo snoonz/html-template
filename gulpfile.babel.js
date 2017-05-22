@@ -28,11 +28,6 @@ const pugTask = (lang) => {
     .pipe(gulp.dest(`${destDir}`));
 }
 
-//ベース言語タスク
-gulp.task('pug:base', () => {
-  return pugTask('base');
-});
-
 //英語タスク
 gulp.task('pug:en', () => {
   return pugTask('en');
@@ -48,7 +43,7 @@ gulp.task('pug:en', () => {
   return pugTask('en');
 });
 
-//日・英両タスクを1つのタスクにまとめる
+//各言語タスクを1つのタスクにまとめる
 gulp.task('html', gulp.series('pug:ja', 'pug:en'));
 
 // 画像コピー
